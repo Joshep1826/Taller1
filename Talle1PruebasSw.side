@@ -1,0 +1,179 @@
+{
+  "id": "483a663e-eead-4c1c-ae71-146c7eccb43c",
+  "version": "2.0",
+  "name": "Talle1PruebasSw",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "47bb761d-36aa-4ce4-8e49-093e7dba7a68",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8bf5fa3e-4438-490c-8fe6-c9f412b2f1d7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dd720af-69f2-46a2-a286-50ac5d49b01b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dd56072-ab62-41d6-8b39-14c1e4bfec4b",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa10dccf-e147-4a70-86b7-1414ba452281",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Willie Colon che che cole en itagui"
+    }, {
+      "id": "a728e052-656e-4c47-80e9-df47adc135fc",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8243f715-1e25-4b77-b5d3-a1587016da97",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3182002a-feb8-4381-bbe8-bdbd9185e478",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Willie Colón cheche cole Itagüí",
+      "targets": [
+        ["linkText=Willie Colón cheche cole Itagüí", "linkText"],
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissible #video-title", "css:finder"],
+        ["xpath=//a[@id='video-title']", "xpath:attributes"],
+        ["xpath=//div[@id='title-wrapper']/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/watch?v=Yffo2sfe25M')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Willie Colón cheche cole Itagüí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "211ca842-c2d0-4c7e-8507-e2c27bfa5ad7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Willie Colón cheche cole Itagüí",
+      "targets": [
+        ["linkText=Willie Colón cheche cole Itagüí", "linkText"],
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissible #video-title", "css:finder"],
+        ["xpath=//a[@id='video-title']", "xpath:attributes"],
+        ["xpath=//div[@id='title-wrapper']/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/watch?v=Yffo2sfe25M')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Willie Colón cheche cole Itagüí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f51cd9f-c85e-4afd-a10b-9d48fbe9a1b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissible #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissible #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='video-title']/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Willie Colón cheche cole Itagüí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88676190-6ab8-4c88-879e-eff08f500df5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-watch-next-secondary-results-renderer:nth-child(2) > #dismissible .yt-core-image--fill-parent-height",
+      "targets": [
+        ["css=.ytd-watch-next-secondary-results-renderer:nth-child(2) > #dismissible .yt-core-image--fill-parent-height", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/TqCC-zWQfdI/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-BIAC4AOKAgwIABABGHIgVCg7MA8=&rs=AOn4CLBkidI0E7u2F5lM-H3Ld43rsKDqbg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[46]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[2]/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4392c1b1-09f3-4ffc-9986-33443c45cd49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-watch-next-secondary-results-renderer:nth-child(2) > #dismissible .yt-core-image--fill-parent-height",
+      "targets": [
+        ["css=.ytd-watch-next-secondary-results-renderer:nth-child(2) > #dismissible .yt-core-image--fill-parent-height", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/TqCC-zWQfdI/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-BIAC4AOKAgwIABABGHIgVCg7MA8=&rs=AOn4CLBkidI0E7u2F5lM-H3Ld43rsKDqbg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[46]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[2]/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef69938f-d111-419f-8670-63ecfdb2867b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(2) > #dismissible > .details #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissible > .details #video-title", "css:finder"],
+        ["xpath=(//span[@id='video-title'])[14]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissible']/div/div/a/h3/span)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[2]/div/div/div/a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rubén Blades - Pedro Navaja (en vivo)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16937825-a851-427d-90fb-07622ba802e6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(2) > #dismissible > .details #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissible > .details #video-title", "css:finder"],
+        ["xpath=(//span[@id='video-title'])[14]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissible']/div/div/a/h3/span)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[2]/div/div/div/a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rubén Blades - Pedro Navaja (en vivo)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "684459c6-eb02-4af3-8475-a02ac4fe2854",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47bb761d-36aa-4ce4-8e49-093e7dba7a68"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
